@@ -433,26 +433,25 @@
   <section class="vs-checkout-wrapper space">
     <div class="container">
       <div class="woocommerce-form-login-toggle">
-        <div class="woocommerce-info">Returning customer? <a href="#" class="showlogin">Click here to login</a>
-        </div>
+        <div class="woocommerce-info">Zaten müşteri misiniz? <a href="#" class="showlogin">Giriş yapmak için tıklayın</a></div>
         <form action="#" class="woocommerce-form-login bg-smoke">
           <div class="row">
             <div class="col-lg-4">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username or email">
+                <input type="text" class="form-control" placeholder="Kullanıcı Adı veya E-posta">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" placeholder="Şifre">
               </div>
               <div class="form-group">
                 <div class="custom-checkbox">
                   <input type="checkbox" id="remembermylogin">
-                  <label for="remembermylogin">Remember Me</label>
+                  <label for="remembermylogin">Beni hatırla</label>
                 </div>
               </div>
               <div class="form-group">
-                <button type="submit" class="vs-btn style4">Login</button>
-                <p class="fs-xs mt-2 mb-0"><a class="text-reset" href="#">Lost your password?</a></p>
+                <button type="submit" class="vs-btn style4">Giriş Yap</button>
+                <p class="fs-xs mt-2 mb-0"><a class="text-reset" href="#">Şifrenizi mi unuttunuz?</a></p>
               </div>
             </div>
           </div>
@@ -460,64 +459,64 @@
       </div>
       <div class="woocommerce-form-coupon-toggle">
         <div class="woocommerce-info">
-          Have a coupon? <a href="#" class="showcoupon">Click here to enter your code</a>
+          Kuponunuz var mı? <a href="#" class="showcoupon">Kodunuzu girmek için tıklayın</a>
         </div>
       </div>
       <form action="#" class="woocommerce-form-coupon bg-smoke" style="display: block;">
         <div class="row">
           <div class="col-lg-4">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Write your coupon code">
+              <input type="text" class="form-control" placeholder="Kupon kodunuzu yazın">
             </div>
             <div class="form-group">
-              <button type="submit" class="vs-btn style4">Apply coupon Code</button>
+              <button type="submit" class="vs-btn style4">Kuponu Uygula</button>
             </div>
           </div>
         </div>
       </form>
       <form action="#" class="woocommerce-checkout">
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-6">
-            <h2 class="h4">Billing Details</h2>
+            <h2 class="h4">Fatura Bilgileri</h2>
             <div class="row">
               <div class="col-12 form-group">
                 <select class="form-select">
-                  <option>United Kingdom (UK)</option>
-                  <option>United State (US)</option>
-                  <option>Equatorial Guinea (GQ)</option>
-                  <option>Australia (AU)</option>
-                  <option>Germany (DE)</option>
+                  <option>Türkiye</option>
+                  <option>Almanya</option>
+                  <option>Fransa</option>
+                  <option>İtalya</option>
+                  <option>İspanya</option>
                 </select>
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" placeholder="First Name">
+                <input type="text" class="form-control" placeholder="Ad">
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" placeholder="Last Name">
+                <input type="text" class="form-control" placeholder="Soyad">
               </div>
               <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Your Company Name">
+                <input type="text" class="form-control" placeholder="Şirket Adınız">
               </div>
               <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Street Address">
-                <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+                <input type="text" class="form-control" placeholder="Cadde Adresi">
+                <input type="text" class="form-control" placeholder="Apartman, daire, vs. (isteğe bağlı)">
               </div>
               <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Town / City">
+                <input type="text" class="form-control" placeholder="Şehir">
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" placeholder="Country">
+                <input type="text" class="form-control" placeholder="Ülke">
               </div>
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" placeholder="Postcode / Zip">
+                <input type="text" class="form-control" placeholder="Posta Kodu">
               </div>
               <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Email Address">
-                <input type="text" class="form-control" placeholder="Phone number">
+                <input type="email" class="form-control" placeholder="E-posta Adresi">
+                <input type="tel" class="form-control" placeholder="Telefon Numarası">
               </div>
               <div class="col-12 form-group">
                 <input type="checkbox" id="accountNewCreate">
-                <label for="accountNewCreate">Create An Account?</label>
+                <label for="accountNewCreate">Hesap Oluşturulsun mu?</label>
               </div>
             </div>
           </div>
@@ -525,7 +524,7 @@
             <p id="ship-to-different-address">
               <input id="ship-to-different-address-checkbox" type="checkbox" name="ship_to_different_address" value="1">
               <label for="ship-to-different-address-checkbox">
-                Ship to a different address?
+                Farklı bir adrese gönderilsin mi?
                 <span class="checkmark"></span>
               </label>
             </p>
@@ -533,97 +532,93 @@
               <div class="row">
                 <div class="col-12 form-group">
                   <select class="form-select">
-                    <option>United Kingdom (UK)</option>
-                    <option>United State (US)</option>
-                    <option>Equatorial Guinea (GQ)</option>
-                    <option>Australia (AU)</option>
-                    <option>Germany (DE)</option>
+                    <option>Türkiye</option>
+                    <option>Almanya</option>
+                    <option>Fransa</option>
+                    <option>İtalya</option>
+                    <option>İspanya</option>
                   </select>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" placeholder="First Name">
+                  <input type="text" class="form-control" placeholder="Ad">
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" placeholder="Last Name">
+                  <input type="text" class="form-control" placeholder="Soyad">
                 </div>
                 <div class="col-12 form-group">
-                  <input type="text" class="form-control" placeholder="Your Company Name">
+                  <input type="text" class="form-control" placeholder="Şirket Adınız">
                 </div>
                 <div class="col-12 form-group">
-                  <input type="text" class="form-control" placeholder="Street Address">
-                  <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+                  <input type="text" class="form-control" placeholder="Cadde Adresi">
+                  <input type="text" class="form-control" placeholder="Apartman, daire, vs. (isteğe bağlı)">
                 </div>
                 <div class="col-12 form-group">
-                  <input type="text" class="form-control" placeholder="Town / City">
+                  <input type="text" class="form-control" placeholder="Şehir">
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" placeholder="Country">
+                  <input type="text" class="form-control" placeholder="Ülke">
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" placeholder="Postcode / Zip">
+                  <input type="text" class="form-control" placeholder="Posta Kodu">
                 </div>
                 <div class="col-12 form-group">
-                  <input type="text" class="form-control" placeholder="Email Address">
-                  <input type="text" class="form-control" placeholder="Phone number">
+                  <input type="email" class="form-control" placeholder="E-posta Adresi">
+                  <input type="tel" class="form-control" placeholder="Telefon Numarası">
                 </div>
               </div>
             </div>
             <div class="col-12 form-group">
-              <textarea cols="20" rows="5" class="form-control"
-                placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+              <textarea cols="20" rows="5" class="form-control" placeholder="Siparişiniz hakkında notlar, örneğin teslimat için özel notlar."></textarea>
             </div>
           </div>
         </div>
       </form>
-      <h4 class="mt-4 pt-lg-2">Your Order</h4>
+      <h4 class="mt-4 pt-lg-2">Siparişiniz</h4>
       <form action="#" class="woocommerce-cart-form">
         <div class="table-responsive">
           <table class="cart_table">
             <thead>
               <tr>
-                <th class="cart-col-image">Image</th>
-                <th class="cart-col-productname">Product Name</th>
-                <th class="cart-col-price">Price</th>
-                <th class="cart-col-quantity">Quantity</th>
-                <th class="cart-col-total">Total</th>
+                <th class="cart-col-image">Resim</th>
+                <th class="cart-col-productname">Ürün Adı</th>
+                <th class="cart-col-price">Fiyat</th>
+                <th class="cart-col-quantity">Adet</th>
+                <th class="cart-col-total">Toplam</th>
               </tr>
             </thead>
             <tbody>
               <tr class="cart_item">
                 <td data-title="Product">
-                  <a class="cart-productimage" href="shop-details.html"><img width="91" height="91"
-                      src="assets/img/products/pd-thumb-1.png" alt="Image"></a>
+                  <a class="cart-productimage" href="shop-details.html"><img width="91" height="91" src="assets/img/products/pd-thumb-1.png" alt="Image"></a>
                 </td>
                 <td data-title="Name">
-                  <a class="cart-productname" href="shop-details.html">Fujifilm Instax Mini Camera...</a>
+                  <a class="cart-productname" href="shop-details.html">Lüks Otel Odası Rezervasyonu...</a>
                 </td>
                 <td data-title="Price">
-                  <span class="amount"><bdi><span>$</span>600.00 </bdi></span>
+                  <span class="amount"><bdi><span>₺</span>1000.00 </bdi></span>
                 </td>
                 <td data-title="Quantity">
-                  <strong class="product-quantity">01</strong>
+                  <strong class="product-quantity">1</strong>
                 </td>
                 <td data-title="Total">
-                  <span class="amount"><bdi><span>$</span>600.00</bdi></span>
+                  <span class="amount"><bdi><span>₺</span>1000.00</bdi></span>
                 </td>
               </tr>
             </tbody>
             <tfoot class="checkout-ordertable">
               <tr class="cart-subtotal">
-                <th>Subtotal</th>
-                <td data-title="Subtotal" colspan="4"><span class="woocommerce-Price-amount amount"><bdi><span
-                        class="woocommerce-Price-currencySymbol">$</span>760</bdi></span></td>
+                <th>Alt Toplam</th>
+                <td data-title="Subtotal" colspan="4"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₺</span>1000</bdi></span></td>
               </tr>
               <tr class="woocommerce-shipping-totals shipping">
-                <th>Shipping</th>
+                <th>Teslimat</th>
                 <td data-title="Shipping" colspan="4">
-                  Enter your address to view shipping options.
+                  Adresinizi girerek teslimat seçeneklerini görüntüleyebilirsiniz.
                 </td>
               </tr>
               <tr class="order-total">
-                <th>Total</th>
-                <td data-title="Total" colspan="4"><strong><span class="woocommerce-Price-amount amount"><bdi><span
-                          class="woocommerce-Price-currencySymbol">$</span>760</bdi></span></strong>
+                <th>Toplam</th>
+                <td data-title="Total" colspan="4"><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₺</span>1000</bdi></span></strong>
                 </td>
               </tr>
             </tfoot>
@@ -634,37 +629,32 @@
         <div class="woocommerce-checkout-payment">
           <ul class="wc_payment_methods payment_methods methods">
             <li class="wc_payment_method payment_method_bacs">
-              <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"
-                checked="checked">
-              <label for="payment_method_bacs">Direct bank transfer</label>
+              <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked">
+              <label for="payment_method_bacs">Banka Havalesi</label>
               <div class="payment_box payment_method_bacs" style="display: block;">
-                <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference.
-                  Your order will not be shipped until the funds have cleared in our account.</p>
+                <p>Ödemenizi doğrudan banka hesabımıza yapabilirsiniz. Lütfen sipariş numaranızı ödeme açıklaması olarak kullanın.</p>
               </div>
             </li>
             <li class="wc_payment_method payment_method_cheque">
               <input id="payment_method_cheque" type="radio" class="input-radio" name="payment_method" value="cheque">
-              <label for="payment_method_cheque">Cheque Payment</label>
+              <label for="payment_method_cheque">Çek ile Ödeme</label>
               <div class="payment_box payment_method_cheque">
-                <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
-                </p>
+                <p>Lütfen çekinizi mağaza adresine gönderin.</p>
               </div>
             </li>
             <li class="wc_payment_method payment_method_cod">
               <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method">
-              <label for="payment_method_cod">Cash On Delivery</label>
-              <div class="payment_box payment_method_cod">
-                <p>Pay with cash upon delivery.</p>
-              </div>
+              <label for="payment_method_cod">Kapıda Ödeme</label>
             </li>
           </ul>
-          <div class="form-row place-order pt-lg-2">
-            <button type="submit" class="vs-btn style4">Place order</button>
+          <div class="form-group">
+            <button type="submit" class="vs-btn style4">Siparişi Tamamla</button>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
   <!--==============================
 	  Checkout Area End
 	==============================-->
