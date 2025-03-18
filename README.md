@@ -21,3 +21,6 @@ This project is a web application where users can book hotels, plan vacations an
 ## 🔗 Live Demo
 
 A live version of the project is available [here](https://etstur.netlify.app/).
+## 🖼️ Project Visuals
+
+![1](https://github.com/user-attachments/assets/c3fab0d1-eb1b-4397-8963-f02b768513de)
