@@ -20,7 +20,7 @@ This project is a web application where users can book hotels, plan vacations an
 
 ## 🔗 Live Demo
 
-A live version of the project is available [here](https://etstur.netlify.app/).
+A live version of the project is available [here](https://yildirimtur.netlify.app/).
 ## 🖼️ Project Visuals
 
-![1](https://github.com/user-attachments/assets/c3fab0d1-eb1b-4397-8963-f02b768513de)
+![FireShot Capture 018 - Tatil, YILDIRIM TUR'dan sorulur! - YILDIRIM TUR -  yildirimtur netlify app -min](https://github.com/user-attachments/assets/d0a1aa44-ca6c-421f-95b3-7afee508a19b)
